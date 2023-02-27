@@ -1,0 +1,66 @@
+.App {
+  padding: 25px;
+}
+
+/* Section 1 */
+
+.header{
+  background-color: #1E2333;
+  height: 60vh;
+  padding: 30px 60px;
+} 
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header h1 {
+  color: white;
+  font-size: 4rem;
+  max-width: 400px;
+  padding: 100px 0 0 0;
+  margin-bottom: 0;
+}
+
+.header p{
+  color: white;
+  max-width: 300px;
+  font-size: 1rem;
+} 
+
+.header button {
+  margin: 50px 0;
+  padding: 15px 20px;
+  font-size: 1rem;
+  background-color: white;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+/* Section 2 */
+
+.section-2 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 60vh;
+}
+
+.section-2 div {
+  max-width: 150px;
+  display: flex;
+  flex-direction: column;
+  height: 300px;
+}
+
+.section-2 div h3,
+.section-2 div p {
+  margin-left: 15px;
+}
+
+.section-2 div h3 {
+  font-size: 1.5rem;
+}
